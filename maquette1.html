@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js" defer="defer"></script>
+    <title>Maquette HTML</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-md navbar-light bg-light ">
+        <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-content">
+            <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="container d-flex justify-content-between">
+            <div class="row">
+                <div class="col-4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="collapse navbar-collapse" id="navbar-content">
+                        <nav class=" d-flex justify-content-center ">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary border-end border-dark " href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary border-end border-dark" href="#">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary border-end border-dark" href="#"> Company</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary" href="#">Blog</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row">    
+                        <form action="" id="searchform" class=" d-flex ms-auto">
+                            <div class="input-group">
+                                <input type="search" name="q" placeholder="Rechercher" class="form-control">
+                            <button type="submit" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                              </svg>
+                            </button>
+                            </div>
+                        </form>
+                </div>
+        </div>
+    </header>
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a class="" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="" href="#">Products</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a class="" href="#">Xyz</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Features</li>
+        </ol>
+    </nav>
+    <div class=" list-group list-group-flush p-3">
+        <h1 class="h2">Titre de mon article</h1>
+        <p class="padding-s-3">Écrit par <a href="#">Victor Martin</a></p>
+        <figure class="figure">
+            <img src="./image/ilya-pavlov-OqtafYT5kTw-unsplash.webp" alt="image" class="img-fluid img-thumbnail">
+            <figcaption class="figure-caption text-end">Description image</figcaption>
+        </figure>
+        <article>
+            <p class="h5">Sous-titre 1</p>
+            <p class="lead text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa adipisci maiores culpa corrupti itaque rem reprehenderit, neque obcaecati dolor, exercitationem possimus hic veritatis nostrum est fuga architecto eius! Rem reprehenderit aut veritatis sapiente itaque est asperiores unde molestias recusandae corporis eaque et, repellat quidem tempore commodi alias aliquam porro eius dolore praesentium suscipit beatae impedit ad. Qui illum saepe nulla, ratione reprehenderit quod ad veritatis dolores error voluptas. Dignissimos ipsa voluptates facere esse reiciendis sequi voluptatibus atque dolores. Blanditiis nihil maxime omnis ratione officiis culpa ut porro cupiditate rem libero a placeat temporibus vitae adipisci sequi sint, consequatur perspiciatis explicabo.</p>
+        </article>
+        <article>
+            <h2 class="h6">Sous-titre 2</h2>
+            <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex fuga nostrum error, asperiores distinctio inventore fugiat, enim ratione, mollitia adipisci eos fugit esse dolorem! Modi quae natus aspernatur alias voluptates atque, eius sapiente! Dolorem, blanditiis asperiores obcaecati quos ex corporis quo, suscipit magnam, minus reprehenderit consequuntur impedit. Eius, eveniet! Pariatur assumenda cum doloremque laboriosam, facere molestiae commodi aspernatur est aliquid aperiam fugit incidunt accusamus et sunt ipsa eum. Reprehenderit non minus fugit, qui maiores facilis. Porro magnam, ullam dolore quod iure labore accusantium veniam ad officiis dolor fuga accusamus voluptatum voluptas ea amet autem necessitatibus illo sunt tenetur! Officia, laudantium!</p>
+        </article>
+    </div>
+    <div>
+        <table class="table table-striped table-bordered table-hover table-sm">
+            <caption class="caption-top">Tableau</caption>
+            <thead class="table-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Âge</th>
+                    <th>Nickname</th>
+                    <th>Employee</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Giacomo Guilizzani Founder & CEO</td>
+                <td>40</td>
+                <td>Peidi</td>
+                <td><input type="radio" checked></td>
+            </tr>
+            <tr>
+                <td>Marco Polo </td>
+                <td>38</td>
+                <td>  </td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+                <td>Mariah Better Half</td>
+                <td>41</td>
+                <td>Patata</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+                <td>Valerie Damido</td>
+                <td>:)</td>
+                <td>Val</td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+                <td><a href="#">Data Grid Docs</a></td>
+                <td> </td>
+                <td> </td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td class="fst-italic">Some text in it</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="fw-bold text-decoration-underline">Some text in bold and underlined</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="text-decoration-line-through">Some text with strikethrough effect</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class=" list-group list-group-flush p-3">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos soluta consequatur vitae nostrum ratione incidunt ut, quas delectus eveniet quam blanditiis quae iure distinctio fuga! Repudiandae enim corrupti sed odit fuga iure nostrum, pariatur facere nemo assumenda, repellendus repellat voluptatum? Consequuntur minus possimus earum enim dolorem aperiam eaque? Reiciendis, quod. Perferendis vero architecto modi molestiae ullam ad distinctio, quo fugit odio deleniti voluptatibus illum quaerat perspiciatis sed obcaecati, laborum officiis rem nihil doloremque reprehenderit dolorem minima corporis eveniet in. Sit ex cum sunt, suscipit, nesciunt exercitationem accusantium ea magnam, dolor unde iusto. Laudantium voluptas vitae sit cumque, minus inventore sapiente quam optio praesentium nam maxime. Pariatur fuga obcaecati, inventore, sint at itaque, ratione aut perspiciatis mollitia sapiente repudiandae et a aspernatur voluptate cumque incidunt animi. Vero deserunt est vitae ut sit quis perferendis officia culpa. Consequatur perferendis recusandae quisquam expedita ipsam ipsa ab voluptatibus officia minima, corrupti doloribus laudantium iusto magni quos soluta? Odio adipisci optio iure fugiat repellat sit unde eligendi? Fuga, ipsum iste? Praesentium maxime ipsa, aspernatur tenetur laboriosam, molestiae vel doloribus ipsum provident accusantium quas temporibus, quidem sint in ex soluta? Placeat autem saepe eos possimus magnam, non sed commodi ea distinctio in vitae quo soluta laborum.</p>
+        <p class="text-end padding-s-3">Le 23/09/2022 par <a href="#">Victor Martin</a></p>
+    </div>
+    <div class="container d-flex flex-column border p-3">
+        <div class="row">
+            <div class="col-3">
+                <div>
+                    <div class="mb-3">
+                        <label for="lName" class="form-label">Nom</label>
+                        <input type="text" name="lName" class="form-control" placeholder="Nom">
+                    </div>
+                </div>
+                <div>
+                    <div class="mb-3">
+                        <label for="fName" class="form-label">Prénom</label>
+                        <input type="text" name="fName" class="form-control" placeholder="Prénom">
+                    </div>
+                </div>
+                <div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Votre email</label>
+                        <input type="email" name="email" class="form-control" placeholder="abcde@fgh.fr">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="combobox" class="form-label"> ComboBox </label>
+                    <select name="combobox" id="combobox" class="form-select">
+                        <option selected>-- ComboBox --</option>
+                        <option value="1">Item 1</option>
+                        <option value="2">Item 2</option>
+                        <option value="3">Item 3</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <p class="text-grey">S'inscrire à la newsletter ?</p>
+                    <div class="form-check form-switch">
+                        <input type="checkbox" name="newsletter" value="false" class="form-check-input">
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="ms-5">
+                    <img src="./image/ilya-pavlov-OqtafYT5kTw-unsplash.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center pt-5">
+            <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#navbar-content">Valider</button>
+        </div>
+    </div>
+</body>
+</html>

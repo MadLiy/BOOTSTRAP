@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../integration 1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../integration 2/style.css">
+        <script src="../integration 1/js/bootstrap.bundle.js" defer="defer"></script>
+        <title>Main Evenement
+        </title>
+    </head>
+    <body>
+
+        <header>
+            <div class="container-fluid d-flex justify-content-between pt-3">
+                <div class="row">
+                    <div class="col-6 flex-fill">
+                        <figure class="figure">
+                            <a href="#">
+                                <img
+                                    src="./images/label_systematic.png"
+                                    class="img-fluid m-2"
+                                    alt="logo-retour-accueil"></a>
+                        </figure>
+                    </div>
+                </div>
+                <nav class="navbar d-flex justify-content-center">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="offcanvas offcanvas-end"
+                        tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#social">Réseaux sociaux</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Liste déroulante
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="./index.html">Fiche événement
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./appel.html">Appel à projet</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider"></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Contact</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input
+                                    class="form-control me-2"
+                                    type="search"
+                                    placeholder="Rechercher"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-primary" type="submit">Rechercher</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <div class="row">
+                    <div class="col-2 flex-fill">
+                        <button type="button" class="btn btn-danger rounded-pill mt-1">
+                            <a class=" nav-link d-inline-flex link-underline-none" href="#">ADHÉRER AU PÔLE</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="pt-3">
+                <div class="">
+                    <img src="./images/banniere.jpg" class="img-fluid w-100" alt="fond-bloc-1">
+                </div>
+            </div>
+            <div class="container-fluid">
+                <!--bloc noir-->
+                <div class="col border-bottom pt-3">
+                    <!--bloc rouge-->
+                    <h1 class="h5 pt-3">La recherche et le développement sont évidemment au coeur de
+                        l'innovation et sont soutenus par des dispositifs variés qui ne cessent de se
+                        multiplier</h1>
+                    <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                        voluptatibus praesentium, incidunt nemo hic ratione repellendus, omnis voluptas
+                        repudiandae quo sequi explicabo autem, tempore eveniet soluta veniam odit magnam
+                        recusandae quos magni. At culpa rem voluptatibus sapiente ab sequi. Ab esse,
+                        distinctio corporis eaque soluta ex numquam et maxime id!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, facilis?</p>
+                </div>
+                <div class="container-fluid">
+                    <!--bloc rouge-->
+
+                    <div class="col d-flex flex-sm-column flex-lg-row justify-content-center pt-4">
+                        <!--bloc noir-->
+
+                        <div class="me-2">
+                            <!--bloc rouge-->
+                            <p>Trier par Hubs & Enjeux:</p>
+                            <input type="text" placeholder="Sélectionnez des thématiques">
+                        </div>
+                        <div class="me-2">
+                            <!--bloc rouge-->
+                            <p>Trier par zones géographique:</p>
+                            <input type="text" placeholder="Afficher tous">
+                        </div>
+                        <div class="me-2">
+                            <p>Trier par type d'organisme:</p>
+                            <input type="text" placeholder="Afficher tous">
+                        </div>
+                        <div class="me-2">
+                            <p>Rechercher par mots-clés:</p>
+                            <input type="text" placeholder="Rechercher">
+                        </div>
+                        <div class="pt-4 mt-2">
+                            <button type="button" class=" ms-2 rounded-pill btn btn-light">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    fill="currentColor"
+                                    class="bi bi-search"
+                                    viewbox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <!-- METTRE MESSAGE D'ALERTE -->
+                    </div>
+                    <div class="col pt-4">
+                        <!--bloc noir-->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem maxime
+                            libero neque, architecto enim ducimus pariatur recusandae reiciendis quibusdam
+                            iste nisi rerum totam dolorem nemo sit rem veniam ipsa nam. Architecto commodi
+                            laudantium incidunt iusto beatae adipisci vel, quae dolores, error quasi,
+                            excepturi perspiciatis voluptatibus labore rerum cupiditate distinctio tempore.</p>
+                    </div>
+
+                        <div class=" col-12 d-flex justify-content-center p-auto">
+                            <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="card border-danger rounded mb-3" style="width:18rem;">
+                                            <div class="card-body">
+                                                <div class="d-flex pb-2 border-bottom">
+                                                    <img src="./images/icone_HOVER.png" class="img-fluid" alt="ampoule">
+                                                    <h5 class="h6 ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5>
+                                                </div>
+                                    
+                                                <p class="card-text">L'intelligence artificielle pour une expérience améliorée du système de santé</p>
+                                                <ul class="border-bottom pb-3">
+                                                    <li>DEADLINE :24 MARS 2023</li>
+                                                    <li>HUB :
+                                                        <button class=" btn bg-danger rounded" type="reset">Data Sience & AI</button>
+                                                    </li>
+                                                </ul>
+                                                <a href="#" class=" card-link text-decoration-none">Voir le projet</a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="carousel-item">
+
+                                        <div class="card border-warning rounded mb-3" style="width:18rem;">
+                                            <div class="card-body">
+                                                <div class="d-flex pb-2 border-bottom">
+                                                    <img src="./images/icone.png" class="img-fluid" alt="ampoule">
+                                                    <h5 class="h6 ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5>
+                                                </div>
+                                                
+                                                <p class="card-text">L'intelligence artificielle pour une expérience améliorée du système de santé</p>
+                                                <ul class="border-bottom pb-3">
+                                                    <li>DEADLINE :24 MARS 2023</li>
+                                                    <li>HUB :
+                                                        <button class=" btn bg-primary rounded" type="reset">Data Sience & AI</button>
+                                                    </li>
+                                                </ul>
+                                                <a href="#" class=" card-link text-decoration-none">Voir le projet</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="card border-primary rounded mb-3" style="width:18rem;">
+                                            <div class="card-body">
+                                                <div class="d-flex pb-2 border-bottom">
+                                                    <img src="./images/icone.png" class="img-fluid" alt="ampoule">
+                                                    <h5 class="h6 ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5>
+                                                </div>
+                                                <!-- <h6>Subtitle</h6> -->
+                                                <p class="card-text">L'intelligence artificielle pour une expérience améliorée du système de santé</p>
+                                                <ul class="border-bottom pb-3">
+                                                    <li>DEADLINE :24 MARS 2023</li>
+                                                    <li>HUB :
+                                                        <button class=" btn bg-primary rounded" type="reset">Data Sience & AI</button>
+                                                    </li>
+                                                </ul>
+                                                <a href="#" class=" card-link text-decoration-none">Voir le projet</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <button
+                                    class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselExampleFade"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="bg-dark text-warning">
+                                        Précédent
+                                    </span>
+                                </button>
+                                <button
+                                    class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#carouselExampleFade"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="bg-dark text-warning">
+                                        Suivant
+                                    </span>
+                                </button> -->
+                            </div>
+
+                            <!-- <div class="col flex-column"> -->
+                            <!--bloc noir CARDS -->
+
+                            <!-- <div> <div class="card border-danger rounded mb-3" style="width:18rem;">
+                            <div class="card-body"> <div class="d-flex pb-2 border-bottom"> <img
+                            src="./images/icone_HOVER.png" class="img-fluid" alt="ampoule"> <h5 class="h6
+                            ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5> </div> <h6>Subtitle</h6> <p
+                            class="card-text">L'intelligence artificielle pour une expérience améliorée du
+                            système de santé</p> <ul class="border-bottom pb-3"> <li>DEADLINE :24 MARS
+                            2023</li> <li>HUB : <button class=" btn bg-danger rounded" type="reset">Data
+                            Sience & AI</button> </li> </ul> <a href="#" class=" card-link
+                            text-decoration-none">Voir le projet</a> </div> </div> </div> -->
+                            <!-- <div> <div class="card border-primary rounded mb-3" style="width:18rem;">
+                            <div class="card-body"> <div class="d-flex pb-2 border-bottom"> <img
+                            src="./images/icone.png" class="img-fluid" alt="ampoule"> <h5 class="h6
+                            ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5> </div> <h6>Subtitle</h6> <p
+                            class="card-text">L'intelligence artificielle pour une expérience améliorée du
+                            système de santé</p> <ul class="border-bottom pb-3"> <li>DEADLINE :24 MARS
+                            2023</li> <li>HUB : <button class=" btn bg-primary rounded" type="reset">Data
+                            Sience & AI</button> </li> </ul> <a href="#" class=" card-link
+                            text-decoration-none">Voir le projet</a> </div> </div> </div> -->
+                            <!-- </div> <div class="col"> <div> <div class="card border-primary rounded mt-4
+                            mb-3" style="width:18rem;"> <div class="card-body"> <div class="d-flex pb-2
+                            border-bottom"> <img src="./images/icone.png" class="img-fluid" alt="ampoule">
+                            <h5 class="h6 ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5> </div>
+                            <h6>Subtitle</h6> <p class="card-text">L'intelligence artificielle pour une
+                            expérience améliorée du système de santé</p> <ul class="border-bottom pb-3">
+                            <li>DEADLINE :24 MARS 2023</li> <li>HUB : <button class=" btn bg-primary
+                            rounded" type="reset">Data Sience & AI</button> </li> </ul> <a href="#" class="
+                            card-link text-decoration-none">Voir le projet</a> </div> </div> </div> <div>
+                            <div class="card border-primary rounded mt-4 mb-3" style="width:18rem;"> <div
+                            class="card-body"> <div class="d-flex pb-2 border-bottom"> <img
+                            src="./images/icone.png" class="img-fluid" alt="ampoule"> <h5 class="h6
+                            ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5> </div> <h6>Subtitle</h6> <p
+                            class="card-text">L'intelligence artificielle pour une expérience améliorée du
+                            système de santé</p> <ul class="border-bottom pb-3"> <li>DEADLINE :24 MARS
+                            2023</li> <li>HUB : <button class=" btn bg-primary rounded" type="reset">Data
+                            Sience & AI</button> </li> </ul> <a href="#" class=" card-link
+                            text-decoration-none">Voir le projet</a> </div> </div> </div> </div> <div
+                            class="col"> <div> <div class="card border-primary rounded mt-5 mb-3"
+                            style="width:18rem;"> <div class="card-body"> <div class="d-flex pb-2
+                            border-bottom"> <img src="./images/icone.png" class="img-fluid" alt="ampoule">
+                            <h5 class="h6 ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5> </div>
+                            <h6>Subtitle</h6> <p class="card-text">L'intelligence artificielle pour une
+                            expérience améliorée du système de santé</p> <ul class="border-bottom pb-3">
+                            <li>DEADLINE :24 MARS 2023</li> <li>HUB : <button class=" btn bg-primary
+                            rounded" type="reset">Data Sience & AI</button> </li> </ul> <a href="#" class="
+                            card-link text-decoration-none">Voir le projet</a> </div> </div> </div> <div>
+                            <div class="card border-primary rounded mt-4 mb-3" style="width:18rem;"> <div
+                            class="card-body"> <div class="d-flex pb-2 border-bottom"> <img
+                            src="./images/icone.png" class="img-fluid" alt="ampoule"> <h5 class="h6
+                            ms-2">SECRETARIAT GENERAL pour L'INVESTISSEMENT</h5> </div> <h6>Subtitle</h6> <p
+                            class="card-text">L'intelligence artificielle pour une expérience améliorée du
+                            système de santé</p> <ul class="border-bottom pb-3"> <li>DEADLINE :24 MARS
+                            2023</li> <li>HUB : <button class=" btn bg-primary rounded" type="reset">Data
+                            Sience & AI</button> </li> </ul> <a href="#" class="card-link
+                            text-decoration-none">Voir le projet</a> </div> </div> </div> </div> </div> -->
+                        </div>
+
+                    <div class="col-12 d-flex justify-content-center pb-3">
+                        <!--bloc noir-->
+                        <a
+                            href="#"
+                            class=" card-link text-decoration-none bg-primary text-white rounded-pill p-2">Voir Plus</a>
+                        <!--BOUTON VOIR PLUS-->
+                    </div>
+                    <div class="col">
+                        <!--bloc rouge-->
+                        <p class="text-primary h5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quas.</p>
+                        <div class="col flex-column justify-content-center">
+                            <nav aria-label="">
+                                <ul class="pagination pagination-md">
+                                    <li class="page-item active rounded" aria-current="page">
+                                        <span class="page-link bg-danger">ÉTAPE 1</span>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link bg-primary text-white" href="#">ÉTAPE 2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link bg-primary text-white" href="#">ÉTAPE 3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link bg-primary text-white" href="#">ÉTAPE 4</a>
+                                    </li>
+                                </ul>
+                                <p class="bg-light pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsa tempore possimus corrupti voluptatem excepturi incidunt eum, odio quidem? Modi repellat necessitatibus, possimus ea voluptatum veniam, eum velit voluptate nam officia numquam quidem consequatur sequi quas ratione officiis illum beatae odit nihil laboriosam soluta. Vero eos magnam libero ipsam nisi culpa harum? Cum maxime ipsa, harum officia laboriosam, nesciunt perspiciatis minima voluptatibus fugit nobis vel temporibus quaerat architecto sunt unde mollitia eaque. Explicabo debitis perspiciatis ipsam asperiores adipisci at modi accusantium, voluptatum fugiat sed cum ad necessitatibus veniam! Possimus laborum facere earum cum quae dolore temporibus accusamus dolorem cumque id.</p>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="container-fluid d-flex justify-content-center ps-5"
+                    id="background-end">
+                    <div class="col-2 ">
+                        <!--bloc rouge-->
+                        <img src="./images/img_footer.png" class="center-block " alt="image-footer">
+                    </div>
+                    <div class="col-6 p-5">
+                        <!--bloc rouge-->
+                        <p class="p-2 bg-white text-primary rounded d-inline-flex">Le Pôle SYSTEMATIC Montpellier-Région vous accompagne dans vos projet</p>
+                        <p class="">Déposez vos projets auprès de nos équipes
+                            <strong>Innovation</strong>
+                            et
+                            <strong>Europe</strong>
+                            <button type="button"><img src="./images/icon_mail.png" alt="icon-mail" class="rounded-pill"></button>
+                        </p>
+                    </div>
+                </div>
+            </main>
+            <footer class=" footer bg-light text-center text-dark ps-5 pt-5 pb-5">
+                <div class="container-fluid d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-lg col-sm-4 me-3 ms-3 ">
+                            <div class="col">
+                                <p>Newsletter</p>
+                                <p class="fw-bold">SYSTEMATIC</p>
+                            </div>
+                        </div>
+                        <div class="col-lg col-sm-4 me-3">
+                            <div class="col pt-3">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="form-control border-end"
+                                    placeholder="EMAIL">
+                            </div>
+                        </div>
+                        <div class="col-lg col-sm-4">
+                            <div class="col pt-3">
+                                <button
+                                    class="btn btn-dark rounded-pill ms-1 me-1"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#navbar-content">Je m'inscris</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p-2 ms-3 me-3 border-start" id="social">
+                            <p>Suivez-nous sur les réseaux sociaux :
+                                <img src="./images/Icones_social.png" alt="réseaux-sociaux"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid d-flex justify-content-center mt-2 mb-2 border-top me-2">
+                    <div class="row mt-4">
+                        <div class="col">
+                            <p>
+                                <a href="#">&copy; SYSTEMATIC 2023</a>. Création
+                                <a href="#">Lilya EMAD</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row ms-3 mt-4 me-3">
+                        <div class="col border-start ms-3">
+                            <p>Contact</p>
+                        </div>
+                        <div class="col">
+                            <p>FAQ</p>
+                        </div>
+                        <div class="col">
+                            <p>Glossaire</p>
+                        </div>
+                        <div class="col d-inline-flex ms-3">
+                            <p>Mentions légales</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </body>
+    </html>

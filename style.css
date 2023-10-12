@@ -1,0 +1,18 @@
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+#background-4{
+    background-image: url(./images/Fond_rose.png);
+    margin-bottom: 30px;
+    display: flex;
+    padding: 10px;
+
+}
+
+#background-end{
+    background-image: url(./images/Fond_rose.png);
+    width: 100%;
+}
